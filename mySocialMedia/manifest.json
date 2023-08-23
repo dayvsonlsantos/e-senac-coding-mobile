@@ -1,0 +1,16 @@
+{
+    "short_name": "Senacbook",
+    "name": "Senacbook",
+    "icons": [
+        {
+            "src": "/images/senacbook.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#ffffff",
+    "Theme_color": "#ffffff",
+    "display": "fullscreen"
+}
