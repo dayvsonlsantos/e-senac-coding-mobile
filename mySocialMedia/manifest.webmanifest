@@ -1,0 +1,59 @@
+{
+    "name": "Senacbook",
+    "short_name": "Senacbook",
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "theme_color": "#005594",
+    "display": "fullscreen",
+    "icons": [
+        {
+            "src": "/images/AppIcons/android/mipmap-hdpi/icon.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/AppIcons/android/mipmap-mdpi/icon.png",
+            "sizes": "48X48",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/AppIcons/android/mipmap-xhdpi/icon.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/AppIcons/android/mipmap-xxhdpi/icon.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/AppIcons/android/mipmap-xxxhdpi/icon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/AppIcons/Assets.xcassets/AppIcon.appiconset/256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/AppIcons/Assets.xcassets/AppIcon.appiconset/512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/AppIcons/android/maskable_icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+        
+    ]
+}

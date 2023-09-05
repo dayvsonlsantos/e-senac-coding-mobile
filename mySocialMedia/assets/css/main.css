@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
+@import url(fonts.googleapis.com_css_family=Source+Sans+Pro_400,700%7CRaleway_400,800,900.css);
 
 /*
 	Future Imperfect by HTML5 UP
@@ -1871,7 +1871,7 @@ input, select, textarea {
 		background-color: transparent;
 		border: 0;
 		box-shadow: inset 0 0 0 1px rgba(160, 160, 160, 0.3);
-		color: #ffffff !important;
+		color: #381f08 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Raleway", Helvetica, sans-serif;
@@ -1885,6 +1885,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		border-radius: 12px;
 	}
 
 		input[type="submit"]:hover,
@@ -2422,7 +2423,7 @@ input, select, textarea {
 		}
 
 		ul.actions li a {
-			background-color: #f78b1f;
+			background-color: rgba(255, 160, 65, 0.708);
 		}
 
 		ul.actions.special {
@@ -2739,7 +2740,7 @@ input, select, textarea {
 
 	.post {
 		padding: 3em 3em 1em 3em ;
-		background: #fbfdff;
+		background: #fff3e8;
 		/* border: 1px solid #dfdfdf; */
 		/* offset-x | offset-y | blur-radius | spread-radius | color */
 		box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.15);
@@ -3200,6 +3201,7 @@ input, select, textarea {
 					font-weight: 400;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
+					color: white;
 				}
 
 		#header .main {
@@ -3232,6 +3234,10 @@ input, select, textarea {
 						position: relative;
 						text-indent: 4em;
 						width: 4em;
+					}
+
+					#header .main ul li #menuIcon {
+						color: #381f08 !important;
 					}
 
 					#header .main ul .menu {
@@ -3516,7 +3522,7 @@ input, select, textarea {
 	}
 
 	#footer .copyright {
-		color: #aaaaaa;
+		color: #744b23;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.5em;
 		font-weight: 400;
