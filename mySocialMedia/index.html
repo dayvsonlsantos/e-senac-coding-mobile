@@ -6,8 +6,9 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 	<meta name="description" content="Senacbook: Plataforma de avisos da faculdade Senac PE para os seus estudantes.">
-	<meta name="theme-color" content="#005594"/>
+	<meta name="theme-color" content="#005594" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
 	<link rel="icon" type="image/png" href="./images/senacbook.png" />
 	<script defer>navigator.serviceWorker.register("pwabuilder-adv-sw.js")</script>
 	<script defer>navigator.serviceWorker.register("pwabuilder-adv-sw.js")</script>
@@ -17,17 +18,20 @@
 
 <body class="is-preload">
 
+	<p class="conection">Você está <strong id="status" class="offline">com conexão desconhecida</strong></p>
+
+	<!-- <div id="target"></div> -->
+
 	<!-- Wrapper -->
 	<div id="wrapper">
-
 		<!-- Header -->
 		<header id="header">
 			<h1><a href="index.html">Senacbook</a></h1>
 			<nav class="links">
 				<ul>
 					<li><a href="#">Home</a></li>
-					<!-- <li><a href="#">Ipsum</a></li>
-								<li><a href="#">Feugiat</a></li>
+					<li><a href="/profile.html">Perfil</a></li>
+					<!-- <li><a href="#">Feugiat</a></li>
 								<li><a href="#">Tempus</a></li>
 								<li><a href="#">Adipiscing</a></li> -->
 				</ul>
@@ -195,7 +199,8 @@
 								<h3><a href="single.html">Mudanças na Conta Institucional</a></h3>
 								<time class="published" datetime="2023-07-31">31 de Julho de 2023</time>
 							</header>
-							<a href="single.html" class="image"><img src="/images/google_migration_small.jpg" width="100%" height="100%"
+							<a href="single.html" class="image"><img src="/images/google_migration_small.jpg"
+									width="100%" height="100%"
 									alt="Duas telas, uma ao lado da outra, mostrando uma seta que indica a migração do sistema Google para Microsoft" /></a>
 						</article>
 					</li>
@@ -205,8 +210,8 @@
 								<h3><a href="single.html">Aulas Presenciais Canceladas Hoje</a></h3>
 								<time class="published" datetime="2023-08-01">01 de Agosto de 2023</time>
 							</header>
-							<a href="single.html" class="image"><img src="/images/recife-alagado_small.jpg" width="100%" height="100%"
-									alt="Avenida do Recife alagada, com carros passando" /></a>
+							<a href="single.html" class="image"><img src="/images/recife-alagado_small.jpg" width="100%"
+									height="100%" alt="Avenida do Recife alagada, com carros passando" /></a>
 						</article>
 					</li>
 					<li>
@@ -215,13 +220,13 @@
 								<h3><a href="single.html">Rec In Play 2023</a></h3>
 								<time class="published" datetime="2023-07-30">30 de Julho de 2023</time>
 							</header>
-							<a href="single.html" class="image"><img src="/images/recinplay2023_small.jpg" width="100%" height="100%"
+							<a href="single.html" class="image"><img src="/images/recinplay2023_small.jpg" width="100%"
+									height="100%"
 									alt="Imagem com fundo preto e um boneco de camisa branca, short laranja, pele rosa e cabelo roxo, empinando um drone. Ao lado esquerdo, o nome Rec n' Play. Logo abaixo a frase: 'Pontes pra conectar as margens'" /></a>
 						</article>
 					</li>
 				</ul>
 			</section>
-
 			<!-- About -->
 			<section class="blurb">
 				<h2>Sobre</h2>
@@ -238,9 +243,12 @@
 			<!-- Footer -->
 			<section id="footer">
 				<ul class="icons">
-					<li><a href="#"><img src="images/whatsapp.svg" width="30px" height="30px" alt="Icone de Whatsapp"></a></li>
-					<li><a href="#"><img src="images/insta.svg" width="30px" height="30px" alt="Icone do Instagram"></a></li>
-					<li><a href="#"><img src="images/email.svg" width="30px" height="30px" alt="Icone de e-mail"></a></li>
+					<li><a href="#"><img src="images/whatsapp.svg" width="30px" height="30px"
+								alt="Icone de Whatsapp"></a></li>
+					<li><a href="#"><img src="images/insta.svg" width="30px" height="30px" alt="Icone do Instagram"></a>
+					</li>
+					<li><a href="#"><img src="images/email.svg" width="30px" height="30px" alt="Icone de e-mail"></a>
+					</li>
 				</ul>
 				<p class="copyright">&copy; Faculdade Senac PE</p>
 			</section>
@@ -255,6 +263,7 @@
 	<script src="assets/js/breakpoints.min.js" defer></script>
 	<script src="assets/js/util.js" defer></script>
 	<script src="assets/js/main.js" defer></script>
+	<script src="assets/js/onlineOffline.js" defer></script>
 
 </body>
 
