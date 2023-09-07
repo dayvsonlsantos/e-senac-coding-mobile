@@ -1,8 +1,12 @@
+document.getElementById('status').innerHTML = navigator.onLine ? 'online' : 'offline';
+let state = navigator.onLine ? 'online' : 'offline';
+localStorage.setItem('connectionStatus', state);
+
 let statusElement = document.getElementById('status');
 var target = document.getElementById('target');
 
 function updateStatusFromLocalStorage() {
-    let state = localStorage.getItem('connectionStatus');
+    state = localStorage.getItem('connectionStatus');
 
     if (state) {
         // Remover ambas as classes antes de adicionar uma nova
